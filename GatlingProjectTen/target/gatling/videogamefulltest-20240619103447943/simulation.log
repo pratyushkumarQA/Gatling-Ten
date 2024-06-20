@@ -1,0 +1,56 @@
+RUN	videogamedb.finalsimulation.VideoGameFullTest	videogamefulltest	1718793287943	test	3.6.1
+USER	Video Game db Final Script	START	1718793294382
+REQUEST		Get All Video Games	1718793294407	1718793295109	OK	 
+USER	Video Game db Final Script	START	1718793296368
+REQUEST		Get All Video Games	1718793296369	1718793297060	OK	 
+REQUEST		Authenticate	1718793297134	1718793297359	KO	jsonPath($token).find.exists extraction crashed: '[?(' expected but 't' found
+USER	Video Game db Final Script	START	1718793298372
+REQUEST		Get All Video Games	1718793298373	1718793299087	OK	 
+REQUEST		Authenticate	1718793299066	1718793299291	KO	jsonPath($token).find.exists extraction crashed: '[?(' expected but 't' found
+ERROR	Create new game: Failed to build request: No attribute named 'jwtToken' is defined 	1718793299429
+USER	Video Game db Final Script	START	1718793300370
+REQUEST		Get All Video Games	1718793300371	1718793301041	OK	 
+ERROR	Create new game: Failed to build request: No attribute named 'jwtToken' is defined 	1718793301302
+REQUEST		Authenticate	1718793301102	1718793301329	KO	jsonPath($token).find.exists extraction crashed: '[?(' expected but 't' found
+REQUEST		Get single game - Tetris	1718793301446	1718793301659	OK	 
+USER	Video Game db Final Script	START	1718793302367
+REQUEST		Get All Video Games	1718793302368	1718793303035	OK	 
+REQUEST		Authenticate	1718793303050	1718793303274	KO	jsonPath($token).find.exists extraction crashed: '[?(' expected but 't' found
+ERROR	Create new game: Failed to build request: No attribute named 'jwtToken' is defined 	1718793303347
+REQUEST		Get single game - Resident Evil 4	1718793303315	1718793303539	OK	 
+ERROR	Delete game - Tetris: Failed to build request: No attribute named 'jwtToken' is defined 	1718793303671
+REQUEST		Authenticate	1718793305040	1718793305262	KO	jsonPath($token).find.exists extraction crashed: '[?(' expected but 't' found
+ERROR	Create new game: Failed to build request: No attribute named 'jwtToken' is defined 	1718793305293
+ERROR	Delete game - Resident Evil 4: Failed to build request: No attribute named 'jwtToken' is defined 	1718793305542
+REQUEST		Get single game - Super Mario 64	1718793305355	1718793305581	OK	 
+REQUEST		Get All Video Games	1718793305683	1718793305902	OK	 
+ERROR	Create new game: Failed to build request: No attribute named 'jwtToken' is defined 	1718793307274
+REQUEST		Get single game - Resident Evil 4	1718793307305	1718793307530	OK	 
+ERROR	Delete game - Super Mario 64: Failed to build request: No attribute named 'jwtToken' is defined 	1718793307585
+REQUEST		Get All Video Games	1718793307555	1718793307772	OK	 
+REQUEST		Authenticate	1718793307912	1718793308143	KO	jsonPath($token).find.exists extraction crashed: '[?(' expected but 't' found
+REQUEST		Get single game - Super Mario 64	1718793309284	1718793309499	OK	 
+ERROR	Delete game - Resident Evil 4: Failed to build request: No attribute named 'jwtToken' is defined 	1718793309548
+REQUEST		Get All Video Games	1718793309595	1718793309813	OK	 
+REQUEST		Authenticate	1718793309782	1718793310010	KO	jsonPath($token).find.exists extraction crashed: '[?(' expected but 't' found
+ERROR	Create new game: Failed to build request: No attribute named 'jwtToken' is defined 	1718793310155
+ERROR	Delete game - Super Mario 64: Failed to build request: No attribute named 'jwtToken' is defined 	1718793311507
+REQUEST		Get All Video Games	1718793311553	1718793311775	OK	 
+ERROR	Create new game: Failed to build request: No attribute named 'jwtToken' is defined 	1718793312020
+REQUEST		Authenticate	1718793311816	1718793312046	KO	jsonPath($token).find.exists extraction crashed: '[?(' expected but 't' found
+REQUEST		Get single game - Tetris	1718793312162	1718793312379	OK	 
+REQUEST		Get All Video Games	1718793313521	1718793313736	OK	 
+REQUEST		Authenticate	1718793313788	1718793314019	KO	jsonPath($token).find.exists extraction crashed: '[?(' expected but 't' found
+ERROR	Create new game: Failed to build request: No attribute named 'jwtToken' is defined 	1718793314052
+REQUEST		Get single game - Super Mario 64	1718793314036	1718793314251	OK	 
+ERROR	Delete game - Tetris: Failed to build request: No attribute named 'jwtToken' is defined 	1718793314392
+REQUEST		Authenticate	1718793315748	1718793315981	KO	jsonPath($token).find.exists extraction crashed: '[?(' expected but 't' found
+ERROR	Create new game: Failed to build request: No attribute named 'jwtToken' is defined 	1718793316028
+ERROR	Delete game - Super Mario 64: Failed to build request: No attribute named 'jwtToken' is defined 	1718793316260
+REQUEST		Get single game - Resident Evil 4	1718793316059	1718793316273	OK	 
+REQUEST		Get All Video Games	1718793316399	1718793316619	OK	 
+ERROR	Create new game: Failed to build request: No attribute named 'jwtToken' is defined 	1718793317999
+ERROR	Delete game - Resident Evil 4: Failed to build request: No attribute named 'jwtToken' is defined 	1718793318282
+REQUEST		Get single game - Super Mario 64	1718793318031	1718793318282	OK	 
+REQUEST		Get All Video Games	1718793318266	1718793318493	OK	 
+REQUEST		Authenticate	1718793318628	1718793318859	KO	jsonPath($token).find.exists extraction crashed: '[?(' expected but 't' found

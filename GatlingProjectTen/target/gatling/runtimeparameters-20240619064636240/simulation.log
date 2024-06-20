@@ -1,0 +1,16 @@
+RUN	videogamedb.commandline.RuntimeParameters	runtimeparameters	1718779596240	test	3.6.1
+USER	Run from command line	START	1718779602382
+REQUEST		Get All Video Games	1718779602405	1718779603070	OK	 
+USER	Run from command line	END	1718779604093
+USER	Run from command line	START	1718779604373
+REQUEST		Get All Video Games	1718779604374	1718779605037	OK	 
+USER	Run from command line	END	1718779606054
+USER	Run from command line	START	1718779606384
+REQUEST		Get All Video Games	1718779606385	1718779607021	OK	 
+USER	Run from command line	END	1718779608025
+USER	Run from command line	START	1718779608371
+REQUEST		Get All Video Games	1718779608371	1718779609026	OK	 
+USER	Run from command line	END	1718779610040
+USER	Run from command line	START	1718779610391
+REQUEST		Get All Video Games	1718779610391	1718779611049	OK	 
+USER	Run from command line	END	1718779612066

@@ -1,0 +1,57 @@
+RUN	videogamedb.finalsimulation.VideoGameFullTest	videogamefulltest	1718793482794	test	3.6.1
+USER	Video Game DB Final Script	START	1718793488771
+REQUEST		Get all video games	1718793488794	1718793489466	OK	 
+USER	Video Game DB Final Script	START	1718793490774
+REQUEST		Get all video games	1718793490775	1718793491435	OK	 
+REQUEST		Authenticate	1718793491504	1718793491717	OK	 
+USER	Video Game DB Final Script	START	1718793492770
+REQUEST		Get all video games	1718793492771	1718793493434	OK	 
+REQUEST		Authenticate	1718793493445	1718793493671	OK	 
+REQUEST		Create New Game - #{name}	1718793493765	1718793493992	KO	status.find.in(200,201,202,203,204,205,206,207,208,209,304), found 500
+USER	Video Game DB Final Script	START	1718793494764
+REQUEST		Get all video games	1718793494764	1718793495430	OK	 
+REQUEST		Authenticate	1718793495440	1718793495671	OK	 
+REQUEST		Create New Game - #{name}	1718793495677	1718793495901	KO	status.find.in(200,201,202,203,204,205,206,207,208,209,304), found 500
+REQUEST		Get single game - #{name}	1718793496007	1718793496675	KO	jsonPath($.name).find.is(#{name}), but actually found nothing
+USER	Video Game DB Final Script	START	1718793496778
+REQUEST		Get all video games	1718793496779	1718793497485	OK	 
+REQUEST		Authenticate	1718793497434	1718793497651	OK	 
+REQUEST		Create New Game - #{name}	1718793497687	1718793497913	KO	status.find.in(200,201,202,203,204,205,206,207,208,209,304), found 500
+REQUEST		Get single game - #{name}	1718793497906	1718793498576	KO	jsonPath($.name).find.is(#{name}), but actually found nothing
+REQUEST		Delete game - #{name}	1718793498693	1718793498914	KO	status.find.in(200,201,202,203,204,205,206,207,208,209,304), found 500
+REQUEST		Get all video games	1718793498917	1718793499571	OK	 
+REQUEST		Authenticate	1718793499496	1718793499719	OK	 
+REQUEST		Create New Game - #{name}	1718793499670	1718793499889	KO	status.find.in(200,201,202,203,204,205,206,207,208,209,304), found 500
+REQUEST		Get single game - #{name}	1718793499922	1718793500592	KO	jsonPath($.name).find.is(#{name}), but actually found nothing
+REQUEST		Delete game - #{name}	1718793500586	1718793500814	KO	status.find.in(200,201,202,203,204,205,206,207,208,209,304), found 500
+REQUEST		Get all video games	1718793500816	1718793501505	OK	 
+REQUEST		Authenticate	1718793501577	1718793501804	OK	 
+REQUEST		Create New Game - #{name}	1718793501735	1718793501980	KO	status.find.in(200,201,202,203,204,205,206,207,208,209,304), found 500
+REQUEST		Get single game - #{name}	1718793501893	1718793502585	KO	jsonPath($.name).find.is(#{name}), but actually found nothing
+REQUEST		Delete game - #{name}	1718793502600	1718793502839	KO	status.find.in(200,201,202,203,204,205,206,207,208,209,304), found 500
+REQUEST		Get all video games	1718793502841	1718793503534	OK	 
+REQUEST		Authenticate	1718793503509	1718793503746	OK	 
+REQUEST		Create New Game - #{name}	1718793503808	1718793504038	KO	status.find.in(200,201,202,203,204,205,206,207,208,209,304), found 500
+REQUEST		Get single game - #{name}	1718793503996	1718793504684	KO	jsonPath($.name).find.is(#{name}), but actually found nothing
+REQUEST		Delete game - #{name}	1718793504593	1718793504859	KO	status.find.in(200,201,202,203,204,205,206,207,208,209,304), found 500
+REQUEST		Get all video games	1718793504861	1718793505537	OK	 
+REQUEST		Authenticate	1718793505536	1718793505772	OK	 
+REQUEST		Create New Game - #{name}	1718793505758	1718793505992	KO	status.find.in(200,201,202,203,204,205,206,207,208,209,304), found 500
+REQUEST		Get single game - #{name}	1718793506056	1718793506726	KO	jsonPath($.name).find.is(#{name}), but actually found nothing
+REQUEST		Delete game - #{name}	1718793506700	1718793506928	KO	status.find.in(200,201,202,203,204,205,206,207,208,209,304), found 500
+REQUEST		Get all video games	1718793506929	1718793507611	OK	 
+REQUEST		Authenticate	1718793507549	1718793507792	OK	 
+REQUEST		Create New Game - #{name}	1718793507786	1718793508032	KO	status.find.in(200,201,202,203,204,205,206,207,208,209,304), found 500
+REQUEST		Get single game - #{name}	1718793508005	1718793508721	KO	jsonPath($.name).find.is(#{name}), but actually found nothing
+REQUEST		Delete game - #{name}	1718793508745	1718793508966	KO	status.find.in(200,201,202,203,204,205,206,207,208,209,304), found 500
+REQUEST		Get all video games	1718793508968	1718793509635	OK	 
+REQUEST		Authenticate	1718793509625	1718793509860	OK	 
+REQUEST		Create New Game - #{name}	1718793509798	1718793510050	KO	status.find.in(200,201,202,203,204,205,206,207,208,209,304), found 500
+REQUEST		Get single game - #{name}	1718793510050	1718793510720	KO	jsonPath($.name).find.is(#{name}), but actually found nothing
+REQUEST		Delete game - #{name}	1718793510725	1718793510971	KO	status.find.in(200,201,202,203,204,205,206,207,208,209,304), found 500
+REQUEST		Get all video games	1718793510973	1718793511675	OK	 
+REQUEST		Authenticate	1718793511653	1718793511888	OK	 
+REQUEST		Create New Game - #{name}	1718793511873	1718793512116	KO	status.find.in(200,201,202,203,204,205,206,207,208,209,304), found 500
+REQUEST		Get single game - #{name}	1718793512062	1718793512721	KO	jsonPath($.name).find.is(#{name}), but actually found nothing
+REQUEST		Delete game - #{name}	1718793512723	1718793512943	KO	status.find.in(200,201,202,203,204,205,206,207,208,209,304), found 500
+REQUEST		Get all video games	1718793512945	1718793513586	OK	 
